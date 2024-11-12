@@ -68,7 +68,7 @@ elif [[ ${MACHINE_ID} = stampede* ]] ; then
     module purge
 
 elif [[ ${MACHINE_ID} = gaea* ]] ; then
-    # We are on GAEA.
+    # We are on GAEA (C5 or C6).
     if ( ! eval module help > /dev/null 2>&1 ) ; then
         source /usr/share/lmod/lmod/init/bash
         source /etc/profile
