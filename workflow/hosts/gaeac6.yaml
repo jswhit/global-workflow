@@ -6,7 +6,7 @@ PACKAGEROOT: '/gpfs/f6/ufs-ard/world-shared/global/glopara/data/nwpara'
 #COMROOT: '/gpfs/f6/ufs-ard/world-shared/global/glopara/data/com'
 COMINsyn: '${COMROOT}/gfs/prod/syndat'
 NOSCRUB: $HOMEDIR
-ACCOUNT: $HPC_ACCOUNT
+ACCOUNT: ira-da
 HOMEDIR: '/gpfs/f6/${ACCOUNT}/scratch/${USER}'
 STMP: '/gpfs/f6/${ACCOUNT}/scratch/${USER}'
 PTMP: '/gpfs/f6/${ACCOUNT}/scratch/${USER}'
