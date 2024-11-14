@@ -34,7 +34,7 @@ source "${HOMEgfs}/ush/module-setup.sh"
 module use "${HOMEgfs}/sorc/gdas.cd/modulefiles"
 
 case "${MACHINE_ID}" in
-  ("hera" | "orion" | "hercules" | "gaea" | "gaeac6" | "wcoss2")
+  ("hera" | "orion" | "hercules" | "gaeac5" | "gaeac6" | "wcoss2")
     module load "${MODS}/${MACHINE_ID}"
     ncdump=$( command -v ncdump )
     NETCDF=$( echo "${ncdump}" | cut -d " " -f 3 )
